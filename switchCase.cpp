@@ -27,5 +27,9 @@ void input() {
             namaJurusan = "Teknik Elektro";
             statusKuota = "Kuota Penuh";
             break;
+        case 3:
+            namaJurusan = "Sistem Informasi";
+            statusKuota = "Tersedia (5 kursi)";
+            break;
     }
  }
