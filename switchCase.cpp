@@ -31,5 +31,16 @@ void input() {
             namaJurusan = "Sistem Informasi";
             statusKuota = "Tersedia (5 kursi)";
             break;
+        default:
+            namaJurusan = "Tidak diketahui";
+            statusKuota = "Error: Kode Tidak Valid";
     }
+ }
+
+ //prosedur
+ void output() {
+    cout << "\n=== HASIL SELEKSI ===" << endl;
+    cout << "Jurusan Pilihan : " << namaJurusan <<endl;
+    cout << "Status Kuota    : " << statusKuota <<endl;
+    cout << "----------------------------------" <<endl;
  }
